@@ -1,0 +1,8 @@
+name = "workers-kv-demo"
+main = "src/index.js"
+compatibility_date = "2023-01-10"
+
+[[kv_namespaces]]
+id = "5d206a8331de476ead1a28aba2ed7d6a"
+binding = "AB_TEST_URL"
+preview_id = "484f3281e6834b4599d70a76179631fe"
