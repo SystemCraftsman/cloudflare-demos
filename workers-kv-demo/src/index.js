@@ -11,7 +11,7 @@
 export default {
 	async fetch(request, env, ctx) {
 		const { searchParams } = new URL(request.url)
-		console.log(searchParams)
+
 		if(searchParams != ""){
 			let url = await env.AB_TEST_URL.get(searchParams.get('test'));
 			return Response.redirect(url);

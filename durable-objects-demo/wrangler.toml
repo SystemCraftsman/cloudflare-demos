@@ -1,0 +1,10 @@
+name = "durable-objects-demo"
+main = "src/index.ts"
+compatibility_date = "2023-01-13"
+
+[durable_objects]
+bindings = [{name = "GAME_OBJECT", class_name = "GameObject"}]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["GameObject"]
