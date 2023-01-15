@@ -6,9 +6,9 @@ import os
 
 client = boto3.client(
     's3',
-    endpoint_url = 'https://<accountid>.r2.cloudflarestorage.com',
-    aws_access_key_id = '<access_key_id>',
-    aws_secret_access_key = '<access_key_secret>'
+    endpoint_url = 'https://<S3_ENDPOINT_URL>',
+    aws_access_key_id = '<YOUR_R2_ACCESS_KEY_ID',
+    aws_secret_access_key = '<YOUR_R2_SECRET_ACCESS_KEY>'
 )
 
 def upload_file(file_name, bucket_name, object_name=None):
