@@ -1,0 +1,12 @@
+{
+  "name": "d1-demo",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.7.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev src/index.js",
+    "deploy": "wrangler publish src/index.js"
+  }
+}
